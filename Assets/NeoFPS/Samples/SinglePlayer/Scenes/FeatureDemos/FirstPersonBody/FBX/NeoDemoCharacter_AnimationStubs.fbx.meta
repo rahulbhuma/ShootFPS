@@ -1,0 +1,1715 @@
+fileFormatVersion: 2
+guid: fb81a8f3202e3c347a944d00108a184f
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Walk-Fwd
+  - first:
+      74: -998496362607748373
+    second: Walk-Back
+  - first:
+      74: -5405653242291790180
+    second: Stub-WalkStrafeRight
+  - first:
+      74: 4854180139978558704
+    second: Stub-WalkStrafeLeft
+  - first:
+      74: 1389121407789637250
+    second: Stub-WalkFwdRight
+  - first:
+      74: 4353825163953427278
+    second: Stub-WalkFwdLeft
+  - first:
+      74: 3672910778998720083
+    second: Stub-WalkBackRight
+  - first:
+      74: -3956177450704724540
+    second: Stub-WalkBackLeft
+  - first:
+      74: -3100369314251171874
+    second: Stub-Idle
+  - first:
+      74: -970031036695711464
+    second: Stub-RunFwd
+  - first:
+      74: 7561202578264162993
+    second: Stub-RunBack
+  - first:
+      74: 1075461500882466294
+    second: Stub-RunStrafeRight
+  - first:
+      74: 6414886917265638141
+    second: Stub-RunStrafeLeft
+  - first:
+      74: 1001127698156555128
+    second: Stub-RunFwdRight
+  - first:
+      74: 9075599364259723620
+    second: Stub-RunFwdLeft
+  - first:
+      74: 5953345682656054528
+    second: Stub-RunBackRight
+  - first:
+      74: -5757631096436925497
+    second: Stub-RunBackLeft
+  - first:
+      74: 2787643937711097291
+    second: Stub-CrouchIdle
+  - first:
+      74: -2125698643918154979
+    second: Stub-CrouchFwd
+  - first:
+      74: -4963748016520232693
+    second: Stub-CrouchBack
+  - first:
+      74: 6971005909411910343
+    second: Stub-CrouchStrafeRight
+  - first:
+      74: -3616257454506647530
+    second: Stub-CrouchStrafeLeft
+  - first:
+      74: 287957918319786901
+    second: Stub-CrouchFwdRight
+  - first:
+      74: -2044638203784080308
+    second: Stub-CrouchFwdLeft
+  - first:
+      74: 7240909680653013833
+    second: Stub-CrouchBackRight
+  - first:
+      74: -570877346916949897
+    second: Stub-CrouchBackLeft
+  - first:
+      74: 5539831331247536789
+    second: Stub-Jump
+  - first:
+      74: 5917537482288442099
+    second: Stub-Fall
+  - first:
+      74: -6172318516598457232
+    second: Stub-Climb
+  - first:
+      74: -2304705367301635330
+    second: Stub-Die
+  - first:
+      74: 5398668187655877793
+    second: Stub-WalkFwd
+  - first:
+      74: -1123643162889417285
+    second: Stub-WalkBack
+  externalObjects: {}
+  materials:
+    materialImportMode: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Stub-WalkFwd
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-WalkBack
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-WalkStrafeRight
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-WalkStrafeLeft
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-WalkFwdRight
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-WalkFwdLeft
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-WalkBackRight
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-WalkBackLeft
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-RunFwd
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-RunBack
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-RunStrafeRight
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-RunStrafeLeft
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-RunFwdRight
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-RunFwdLeft
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-RunBackRight
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-RunBackLeft
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-CrouchIdle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-CrouchFwd
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-CrouchBack
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-CrouchStrafeRight
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-CrouchStrafeLeft
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-CrouchFwdRight
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-CrouchFwdLeft
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-CrouchBackRight
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-CrouchBackLeft
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-Jump
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-Climb
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stub-Die
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_UpperLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_UpperLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_LowerLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_LowerLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Shoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Shoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_LowerArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_LowerArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Toes
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Toes
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_Thumb01_Metacarpal
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_Thumb02_Proximal
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_Thumb03_Distal
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F1_Index01_Proximal
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F1_Index02_Intermediate
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F1_Index03_Distal
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F2_Middle01_Proximal
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F2_Middle02_Intermediate
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F2_Middle03_Distal
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F3_Ring01_Proximal
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F3_Ring02_Intermediate
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F3_Ring03_Distal
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F4_Pinky01_Proximal
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F4_Pinky02_Intermediate
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LHand_F4_Pinky03_Distal
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_Thumb01_Metacarpal
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_Thumb02_Proximal
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_Thumb03_Distal
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F1_Index01_Proximal
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F1_Index02_Intermediate
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F1_Index03_Distal
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F2_Middle01_Proximal
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F2_Middle02_Intermediate
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F2_Middle03_Distal
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F3_Ring01_Proximal
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F3_Ring02_Intermediate
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F3_Ring03_Distal
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F4_Pinky01_Proximal
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F4_Pinky02_Intermediate
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RHand_F4_Pinky03_Distal
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine_03
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: NeoDemoCharacter_AnimationStubs(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: NeoDemoCharacter_AnimationStubs(Clone)
+      position: {x: -0, y: 0, z: 0.9923311}
+      rotation: {x: -0.00070817844, y: -0.00032411914, z: 0.70686406, w: 0.70734906}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_UpperLeg
+      parentName: Hips
+      position: {x: -0.022236878, y: -0.09298375, z: -0.021688001}
+      rotation: {x: 0.5198646, y: 0.50469106, z: 0.47974104, w: -0.49484977}
+      scale: {x: 1.000001, y: 1.000001, z: 1}
+    - name: R_LowerLeg
+      parentName: R_UpperLeg
+      position: {x: -0.4206293, y: 0.00007267475, z: 0.00004558563}
+      rotation: {x: -0.0061436202, y: 0.0016953255, z: -0.1270294, w: 0.9918785}
+      scale: {x: 0.9999997, y: 0.9999993, z: 0.9999999}
+    - name: R_Foot
+      parentName: R_LowerLeg
+      position: {x: -0.4663966, y: -0.00000016212459, z: -0.0000001049042}
+      rotation: {x: 0.022664545, y: 0.007663324, z: 0.6524914, w: 0.7574184}
+      scale: {x: 0.9999997, y: 1.000001, z: 1}
+    - name: R_Toes
+      parentName: R_Foot
+      position: {x: -0.16754459, y: 0.0000001430511, z: 0.0000004673004}
+      rotation: {x: 0.0076833745, y: 0.012946538, z: 0.18467602, w: 0.9826842}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: Spine_01
+      parentName: Hips
+      position: {x: -0.01466508, y: -0.000065332504, z: 0.03785324}
+      rotation: {x: 0.48181397, y: 0.51830643, z: -0.5171552, w: 0.48141903}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine_02
+      parentName: Spine_01
+      position: {x: -0.156712, y: -0.00000004768372, z: 1.396984e-10}
+      rotation: {x: 1.0763878e-13, y: 3.6363863e-12, z: -0.02958752, w: 0.9995622}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Spine_03
+      parentName: Spine_02
+      position: {x: -0.1855883, y: 0.000000028610229, z: 0.00000002385117}
+      rotation: {x: 6.821492e-10, y: 3.1987114e-11, z: 0.05748036, w: 0.9983466}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: R_Shoulder
+      parentName: Spine_03
+      position: {x: -0.1403696, y: -0.07043605, z: 0.03208558}
+      rotation: {x: -0.64046854, y: 0.06506931, z: 0.7533191, w: -0.13444903}
+      scale: {x: 1, y: 0.9999998, z: 0.9999997}
+    - name: R_UpperArm
+      parentName: R_Shoulder
+      position: {x: -0.1424812, y: 0, z: 0.0000001525879}
+      rotation: {x: -0.014519923, y: 0.056912716, z: -0.13797097, w: 0.9886931}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: R_LowerArm
+      parentName: R_UpperArm
+      position: {x: -0.2879593, y: 0.00000007629395, z: 0.0000001525879}
+      rotation: {x: 0.010076557, y: 0.027884437, z: -0.027731469, w: 0.99917567}
+      scale: {x: 0.9999999, y: 0.9999995, z: 0.9999996}
+    - name: RHand
+      parentName: R_LowerArm
+      position: {x: -0.2680715, y: 0.0000004577637, z: 0.0000028991699}
+      rotation: {x: 0.013873499, y: 0.9998366, z: -0.0070093316, w: -0.009228893}
+      scale: {x: 0.999999, y: 1.000001, z: 1}
+    - name: RHand_F1_Index01_Proximal
+      parentName: RHand
+      position: {x: 0.09987797, y: 0.030424671, z: -0.007482147}
+      rotation: {x: 0.7030102, y: 0.00096530607, z: 0.04599595, w: 0.7096902}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_F1_Index02_Intermediate
+      parentName: RHand_F1_Index01_Proximal
+      position: {x: 0.04995571, y: 0.00000045776366, z: 0.00000019073485}
+      rotation: {x: -0.0022384506, y: 0.0002852052, z: 0.03926139, w: 0.99922645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_F1_Index03_Distal
+      parentName: RHand_F1_Index02_Intermediate
+      position: {x: 0.02735958, y: 0, z: 0}
+      rotation: {x: -0.000000020779613, y: 0.00000023751136, z: 0.087156, w: 0.99619466}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_F2_Middle01_Proximal
+      parentName: RHand
+      position: {x: 0.101538464, y: 0.006849575, z: -0.009967651}
+      rotation: {x: 0.7058392, y: -0.010409799, z: 0.030823797, w: 0.70762455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_F2_Middle02_Intermediate
+      parentName: RHand_F2_Middle01_Proximal
+      position: {x: 0.054953575, y: 0.00000015258789, z: 0.000000028610229}
+      rotation: {x: -0.002292483, y: 0.00028715876, z: 0.039257154, w: 0.9992265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_F2_Middle03_Distal
+      parentName: RHand_F2_Middle02_Intermediate
+      position: {x: 0.03499649, y: 0, z: -0.000000009536743}
+      rotation: {x: 0.000003468479, y: -0.0019953179, z: 0.08716566, w: 0.99619186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_F3_Ring01_Proximal
+      parentName: RHand
+      position: {x: 0.098452225, y: -0.015567836, z: -0.007468109}
+      rotation: {x: 0.7076225, y: -0.015347431, z: 0.020282473, w: 0.70613277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_F3_Ring02_Intermediate
+      parentName: RHand_F3_Ring01_Proximal
+      position: {x: 0.049951665, y: 0, z: -0.000000028610229}
+      rotation: {x: -0.002174436, y: 0.00028471448, z: 0.039256018, w: 0.99922687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_F3_Ring03_Distal
+      parentName: RHand_F3_Ring02_Intermediate
+      position: {x: 0.029998435, y: 0.00000015258789, z: 0.00000017166137}
+      rotation: {x: 0.000019996129, y: 0.0029328186, z: 0.087181434, w: 0.99618816}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_F4_Pinky01_Proximal
+      parentName: RHand
+      position: {x: 0.09240127, y: -0.036363848, z: -0.0021629333}
+      rotation: {x: 0.70937294, y: -0.018295966, z: 0.010299002, w: 0.7045206}
+      scale: {x: 1.000001, y: 1, z: 1}
+    - name: RHand_F4_Pinky02_Intermediate
+      parentName: RHand_F4_Pinky01_Proximal
+      position: {x: 0.039775617, y: -0.00000015258789, z: -0.000000028610229}
+      rotation: {x: -0.0022329974, y: 0.00028617762, z: 0.039252404, w: 0.99922687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_F4_Pinky03_Distal
+      parentName: RHand_F4_Pinky02_Intermediate
+      position: {x: 0.024847679, y: 0, z: -0.000000019073486}
+      rotation: {x: -0.000001920871, y: 0.00000007126069, z: 0.08716313, w: 0.99619406}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_Thumb01_Metacarpal
+      parentName: RHand
+      position: {x: 0.02412754, y: 0.03765358, z: 0.007082214}
+      rotation: {x: -0.012709764, y: 0.009973145, z: 0.36416402, w: 0.9311948}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_Thumb02_Proximal
+      parentName: RHand_Thumb01_Metacarpal
+      position: {x: 0.051150873, y: 0.000002861023, z: 0.00000030517577}
+      rotation: {x: 0.041613545, y: -0.029803114, z: -0.027451748, w: 0.9983118}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RHand_Thumb03_Distal
+      parentName: RHand_Thumb02_Proximal
+      position: {x: 0.039867744, y: -0.000000114440915, z: -0.00000015258789}
+      rotation: {x: 0.00018765422, y: 0.000096638134, z: -0.08664271, w: 0.9962394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_Shoulder
+      parentName: Spine_03
+      position: {x: -0.1403624, y: -0.0704356, z: -0.03219464}
+      rotation: {x: 0.13446298, y: -0.75339067, z: -0.065062486, w: 0.64038193}
+      scale: {x: 1, y: 1.000001, z: 1}
+    - name: L_UpperArm
+      parentName: L_Shoulder
+      position: {x: -0.1424812, y: 0.00000004768372, z: 0}
+      rotation: {x: 0.014525143, y: 0.05689972, z: 0.13798043, w: 0.9886925}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_LowerArm
+      parentName: L_UpperArm
+      position: {x: -0.287959, y: 0.0000066566467, z: 0.000007781981}
+      rotation: {x: -0.00813443, y: 0.027678505, z: 0.03321665, w: 0.9990318}
+      scale: {x: 1.000001, y: 0.9999992, z: 1.000001}
+    - name: LHand
+      parentName: L_LowerArm
+      position: {x: -0.2680103, y: 0.00284821, z: 0.00003185272}
+      rotation: {x: 0.0061714277, y: 0.009025208, z: -0.013990109, w: 0.9998424}
+      scale: {x: 0.9999978, y: 1.000002, z: 0.9999992}
+    - name: LHand_F1_Index01_Proximal
+      parentName: LHand
+      position: {x: -0.09987304, y: -0.030424595, z: 0.00754425}
+      rotation: {x: 0.7029898, y: 0.0008338601, z: 0.045873836, w: 0.7097185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_F1_Index02_Intermediate
+      parentName: LHand_F1_Index01_Proximal
+      position: {x: -0.049955633, y: 0.000001373291, z: 0.00004404068}
+      rotation: {x: -0.0022720683, y: 0.00052769884, z: 0.03924637, w: 0.9992268}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_F1_Index03_Distal
+      parentName: LHand_F1_Index02_Intermediate
+      position: {x: -0.02999363, y: 0, z: 0.000000038146972}
+      rotation: {x: 0.00000576097, y: 0.0000024186443, z: 0.08715406, w: 0.99619484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_F2_Middle01_Proximal
+      parentName: LHand
+      position: {x: -0.10153377, y: -0.0068493937, z: 0.00996994}
+      rotation: {x: 0.70581686, y: -0.010595608, z: 0.030724278, w: 0.70764846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_F2_Middle02_Intermediate
+      parentName: LHand_F2_Middle01_Proximal
+      position: {x: -0.054953422, y: 0.0000015258788, z: 0.000048332215}
+      rotation: {x: -0.0023216296, y: 0.0005306571, z: 0.03925007, w: 0.99922657}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_F2_Middle03_Distal
+      parentName: LHand_F2_Middle02_Intermediate
+      position: {x: -0.03499668, y: 0, z: -0.000000009536743}
+      rotation: {x: 0.0000033399324, y: -0.001996568, z: 0.08716636, w: 0.9961918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_F3_Ring01_Proximal
+      parentName: LHand
+      position: {x: -0.09844742, y: 0.015568065, z: 0.0074853515}
+      rotation: {x: 0.7075971, y: -0.015578225, z: 0.020180183, w: 0.70615613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_F3_Ring02_Intermediate
+      parentName: LHand_F3_Ring01_Proximal
+      position: {x: -0.049951628, y: 0.0000012207031, z: 0.000043926237}
+      rotation: {x: -0.0022040892, y: 0.0005279507, z: 0.039249424, w: 0.99922687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_F3_Ring03_Distal
+      parentName: LHand_F3_Ring02_Intermediate
+      position: {x: -0.029998397, y: 0, z: 0}
+      rotation: {x: 0.000019130677, y: 0.0029454273, z: 0.08718186, w: 0.99618804}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_F4_Pinky01_Proximal
+      parentName: LHand
+      position: {x: -0.092396274, y: 0.03636408, z: 0.002163391}
+      rotation: {x: 0.7093433, y: -0.018559739, z: 0.010176642, w: 0.70454526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_F4_Pinky02_Intermediate
+      parentName: LHand_F4_Pinky01_Proximal
+      position: {x: -0.039775465, y: 0.0000009155273, z: 0.0000349617}
+      rotation: {x: -0.0022626508, y: 0.0005280643, z: 0.039241847, w: 0.99922705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_F4_Pinky03_Distal
+      parentName: LHand_F4_Pinky02_Intermediate
+      position: {x: -0.025007743, y: -0.000000076293944, z: -0.000000019073486}
+      rotation: {x: -0.0000009708247, y: 0.00000015439373, z: 0.08715521, w: 0.9961948}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_Thumb01_Metacarpal
+      parentName: LHand
+      position: {x: -0.021727523, y: -0.037653532, z: -0.007082367}
+      rotation: {x: -0.013055216, y: 0.0111877015, z: 0.36444202, w: 0.93106735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_Thumb02_Proximal
+      parentName: LHand_Thumb01_Metacarpal
+      position: {x: -0.05115547, y: 0.000000076293944, z: 0}
+      rotation: {x: -0.04163336, y: 0.029966723, z: -0.027317159, w: 0.99830985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LHand_Thumb03_Distal
+      parentName: LHand_Thumb02_Proximal
+      position: {x: -0.039862897, y: -0.000000095367426, z: 0.00000015258789}
+      rotation: {x: -0.00020663417, y: 0.000028961176, z: -0.087694906, w: 0.9961474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Spine_03
+      position: {x: -0.1921799, y: 0.0000004434586, z: -0.00000012954699}
+      rotation: {x: 0.00000013657194, y: -0.0000002425978, z: -0.033593602, w: 0.9994356}
+      scale: {x: 0.9999998, y: 1, z: 0.9999997}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.1355453, y: 0.000001897812, z: 0.000000009490177}
+      rotation: {x: 0.0000000068332437, y: 9.061421e-10, z: 0.13198029, w: 0.99125236}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
+    - name: L_UpperLeg
+      parentName: Hips
+      position: {x: -0.02236463, y: 0.09301602, z: -0.021416089}
+      rotation: {x: 0.51986504, y: -0.5046934, z: 0.47973603, w: 0.49485177}
+      scale: {x: 1, y: 1.000001, z: 1}
+    - name: L_LowerLeg
+      parentName: L_UpperLeg
+      position: {x: -0.4206295, y: 0.0000018072129, z: 0.0000046825407}
+      rotation: {x: 0.0060553937, y: 0.0018216693, z: 0.12673521, w: 0.9919165}
+      scale: {x: 1, y: 1, z: 1.000001}
+    - name: L_Foot
+      parentName: L_LowerLeg
+      position: {x: -0.4663962, y: 0.00000062942496, z: 0.0000004005432}
+      rotation: {x: -0.022665547, y: 0.007665152, z: -0.6524919, w: 0.75741786}
+      scale: {x: 0.9999997, y: 1.000001, z: 1}
+    - name: L_Toes
+      parentName: L_Foot
+      position: {x: -0.167527, y: -0.000000114440894, z: 0.0000004291534}
+      rotation: {x: -0.007683418, y: 0.012946297, z: -0.18467611, w: 0.9826842}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

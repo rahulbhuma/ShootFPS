@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6686098741768346918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6686098741768634630}
+  - component: {fileID: 6686098741771501886}
+  - component: {fileID: 6686098741770535934}
+  - component: {fileID: 3088771206412752440}
+  - component: {fileID: -1258705911175701728}
+  - component: {fileID: 1101977286608074578}
+  m_Layer: 0
+  m_Name: Attachment_Pistol_OpticsBlankingPlate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6686098741768634630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6686098741768346918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6686098741768634646}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6686098741771501886
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6686098741768346918}
+  m_Mesh: {fileID: 4300022, guid: 500bbf07f826fcf4590bbcd41bd890df, type: 3}
+--- !u!23 &6686098741770535934
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6686098741768346918}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1be3fd113b7a4ac45bd6b15f3ab60b73, type: 2}
+  - {fileID: 2100000, guid: 3375b79fe43efee418e3db8c4da1093b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &3088771206412752440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6686098741768346918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3672692ed2691bd47b792101fd45df97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StartActive: 1
+  m_ActivationMode: 0
+  m_AimUpAudio: {fileID: 8300000, guid: 78baa2a1ad2af6844aa7219f174e73d0, type: 3}
+  m_AimDownAudio: {fileID: 8300000, guid: 33aaa0031249c5540856efd98126dd15, type: 3}
+  m_HipAccuracyCap: 1
+  m_AimedAccuracyCap: 1
+  m_CanAimWhileReloading: 0
+  m_OnAimUp:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnAimDown:
+    m_PersistentCalls:
+      m_Calls: []
+  m_AimOffset: {fileID: 6686098741768634646}
+  m_AimPosition: {x: -0.15120181, y: 0.05334854, z: 0.0069921315}
+  m_AimRotation: {x: 0.000016164857, y: 0, z: 0}
+  m_FovMultiplier: 0.75
+  m_InputMultiplier: 0.75
+  m_AimTime: 0.25
+  m_PositionSpringMultiplier: 0.4
+  m_RotationSpringMultiplier: 0.4
+  m_AimAnimBool: 
+  m_BlockTrigger: 1
+  m_CrosshairUp:
+    m_Value: 1
+  m_CrosshairDown:
+    m_Value: 0
+  lockInputToFoV: 1
+  m_PositionTransition: 3
+  m_RotationTransition: 3
+--- !u!114 &-1258705911175701728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6686098741768346918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af158d9d1acc7c34993a16f2bbda043e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DisplayName: Blanking Plate
+  m_ListName: Blanking Plate
+  m_Guid: 9437d4f6696433a4986b8b4c63561a92
+  m_RequiredInventoryItem: {fileID: 0}
+--- !u!114 &1101977286608074578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6686098741768346918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 421f12c4cc2c4614f9e0616ef942cf44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SaveName: 0
+  m_Position: 0
+  m_Rotation: 0
+  m_LocalScale: 0
+  m_FilterChildObjects: 0
+  m_ChildObjects: []
+  m_FilterNeoComponents: 0
+  m_NeoComponents: []
+  m_OtherComponents: []
+  m_Overrides: []
+  m_Children:
+    m_Keys: 
+    m_Values: []
+    m_GameObject: {fileID: 1101977286608074578}
+  m_PrefabStrongID: 2116235527
+  expandChildObjects: 0
+  expandNeoComponents: 0
+  expandOtherComponents: 0
+  prefabGuid: 9437d4f6696433a4986b8b4c63561a92
+--- !u!1 &6686098741768346934
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6686098741768634646}
+  m_Layer: 0
+  m_Name: DFPstl_Aim_PistolIronSights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6686098741768634646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6686098741768346934}
+  m_LocalRotation: {x: 5.4657075e-15, y: -2.1175824e-22, z: -1.1574086e-36, w: 1}
+  m_LocalPosition: {x: -0.000000038146972, y: 0.02255906, z: -0.42899352}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6686098741768634630}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4f4abcda999cd4b8254e506b70e10f, type: 3}
+  m_Name: Update_v1_1_31
+  m_EditorClassIdentifier: 
+  version: 1131
+  sections:
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: 
+    bulletPoints: []
+    text: 1.1.31 is mostly focussed on fixes and tweaks in preparation for 1.2, with
+      a few small features based on user requests
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: New Features
+    bulletPoints:
+    - Added keyframe animated and procedural obstacle handlers for wieldables
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Component Changes
+    bulletPoints:
+    - Changed the timing setup on ParticleToRigidbodyShellEject which might make
+      the switch visible for slower shells
+    - Changed the inspector properties for the FirstPersonCameraTransformConstraints
+      which might affect people using it outside the expected first person body setup
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []

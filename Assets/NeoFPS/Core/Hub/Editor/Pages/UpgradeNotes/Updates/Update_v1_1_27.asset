@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4f4abcda999cd4b8254e506b70e10f, type: 3}
+  m_Name: Update_v1_1_27
+  m_EditorClassIdentifier: 
+  version: 1127
+  sections:
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: 
+    bulletPoints: []
+    text: 1.1.27 reworks the hand matching system for full body along with a range
+      of bug fixes and tweaks
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: New Features
+    bulletPoints:
+    - Completely reworked the hand matching system for full body FPS characters
+    - New NeoMainMenuSceneSwitcher is a scene switcher variant that goes to the main
+      menu listed in the neofps scene manager
+    - Added SubSceneOperation behaviour which can be used with events (eg interactive
+      object) to trigger sub-scene saves / loads
+    - Added new ThrownProjectileShooter which allows firing hand grenades or similar
+      rigidbody projectiles from firearms
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Settings Changes
+    bulletPoints:
+    - Changed max speed setting to max step rate for motion controller / footstep
+      tracking (need to modify TrackSteps motion graph behaviours if maximum steps
+      per second feels wrong)
+    - Added duration to AnimatorTriggerToolAction and set tool to busy while playing
+    - Boosted speed and improved responsiveness, plus more jetpack fuel in jetpacks
+      and missiles demo
+    - Doors now have additional events for better audio, etc when interacting whilst
+      opening / closing
+    - Hand offsets in WieldableItemKinematics now work completely differently. You
+      will need to modify in the prefab view to align hands and fingers to standard
+      setup
+    - FirstPersonCharacterArms component on body now needs its own HandBoneOffsets
+      asset, and you can edit hand alignment in prefab view
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Script Changes
+    bulletPoints:
+    - Added new HasKey() method and virtual used success vs locked methods to LockedInteractiveObject
+    - WaypointMovingPlatform can now interrupt and immediately reverse travel if
+      a new target waypoint is set while moving
+    - LockedInteractiveObject has easier code extensibility with new virtual functions
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Extensions Changes
+    bulletPoints:
+    - New input system package that uses correct body lean base class (lean wasn't
+      working in full body)
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4f4abcda999cd4b8254e506b70e10f, type: 3}
+  m_Name: Update_v1_1_17
+  m_EditorClassIdentifier: 
+  version: 1117
+  sections:
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: 
+    bulletPoints: []
+    text: 1.1.17 introduces first person body and character animation features such
+      as arm and foot IK to NeoFPS, along with a number of smaller features and fixes.
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: New Features
+    bulletPoints:
+    - New first person body features for full character body and separate arms vs
+      weapon
+    - Root motion based movement states and motion graph behaviour
+    - Wieldable item kinematics adds IK hand matching between character and weapons
+    - Procedural spine animation to match aim pitch and yaw
+    - Camera transform constraints to match first person camera to character head
+      or weapon
+    - LockSelectionOnDeath component forces character to lower weapon on death
+    - New motion graph behaviours (AlignWithVelocity, ConstrainCharacterHeading,
+      FootIkBehaviour, SetRootMotionStrength, SpineAim, AnimatorGroundSlopeBehaviour)
+    - New motion graph conditions (InventoryItemCondition, WieldableSelectedCondition)
+    - DeathAnimation component triggers an animation when the player character dies
+    - Added custom inputs to InputCharacterMotion component
+    - All firearm modules and wieldables now support multiple animators (including
+      character)
+    - Extended and improved HealToolAction fir wieldable tools
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Component Changes
+    bulletPoints:
+    - Added new Vehicle input context and re-generated. Any custom scripts that expose
+      InputContext properties will need to have the value reset
+    - Changed motion graph animation from using Animator as a transform parameter
+      in the graph to a property on the motion controller
+    - Added New Game button to sample UI main menu (set to open demo facility scene
+      by default)
+    - Added Default layer to interactions mask so that objects on default layer can
+      occlude interactables
+    - Changed interrupt behaviour on wieldable tools and added new options. Check
+      any tools for changes
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Script Changes
+    bulletPoints:
+    - Added bodyAnimator, rootMotionHandler and rootMotionStrength properties, and
+      SetRootMotionStrength method to IMotionController interface
+    - Added ResetYawLocal method with offset parameter, and SetHeadingConstraints
+      and ResetHeadingConstraints methods to IAimController
+    - Modified Teleport method to add ignoreTilt parameter in INeoCharacterController
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4f4abcda999cd4b8254e506b70e10f, type: 3}
+  m_Name: Update_v1_1_30
+  m_EditorClassIdentifier: 
+  version: 1130
+  sections:
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: 
+    bulletPoints: []
+    text: 1.1.30 is mostly focussed on fixes and tweaks in preparation for 1.2, with
+      a few small features based on user requests
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: New Features
+    bulletPoints:
+    - Added a DotProductObjectTracker targeting system to track the object most directly
+      in front of the projectile
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Component Changes
+    bulletPoints:
+    - The camera constraints aimer for full body characters no longer constrains
+      the camera rotation to the weapon. Rotation is now handled like the weapon
+      move aimer, where the weapon is aligned to the camera instead. The position
+      is still handled by constraining camera to weapon as before. This means you
+      always keep the screen centered on your target when entering/exiting ADS
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Extensions Changes
+    bulletPoints:
+    - New Cinemachine package which fixes an issue with the audio effects system
+      pulling in an audio listener than clashes with the cinemachine camera
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4f4abcda999cd4b8254e506b70e10f, type: 3}
+  m_Name: Update_v1_1_25
+  m_EditorClassIdentifier: 
+  version: 1125
+  sections:
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: 
+    bulletPoints: []
+    text: 1.1.25 adds an attachment system and the ability to pick up and carry physics
+      objects, as well as a number of smaller tweaks and fixes.
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: New Features
+    bulletPoints:
+    - New modular firearm attachment system
+    - Pick up and carry physics objects
+    - FirstPersonCameraTracker behaviour to track camera events
+    - OrientGravityToolModule and GravityModifier for easy gravity manipulation
+    - Added basic prototype animations for testing WIP weapons
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Component Changes
+    bulletPoints:
+    - with new carry object handler
+    - Demo facility has been updated to use new moddable weapons
+    - Added new HUD elements to HUD prefab
+    - KinematicHingeDoor audio timing changed to prevent movement audio after latching
+      (new options)
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Script Changes
+    bulletPoints:
+    - IWieldable exposes "animationHandler" property (already implemented in existing
+      weapons)
+    - IPrefab popup adds new "showBackground" property for dimming game view while
+      popup visible
+    - IInventory now inherits from IMonoBehaviour
+    - Complete rework of ModularFirearmDrop behaviour to use new payloads system.
+      Custom inherited drop classes should be modified to match
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []

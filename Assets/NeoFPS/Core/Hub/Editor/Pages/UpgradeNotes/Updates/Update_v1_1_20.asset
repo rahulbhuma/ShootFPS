@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4f4abcda999cd4b8254e506b70e10f, type: 3}
+  m_Name: Update_v1_1_20
+  m_EditorClassIdentifier: 
+  version: 1120
+  sections:
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: 
+    bulletPoints: []
+    text: 1.1.20 adds a new multi-scene save system that lets you split your levels
+      into multiple sub-scenes
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: New Features
+    bulletPoints:
+    - Multi-scene save system to allow splitting levels into multiple scenes
+    - On unloading a sub-scene, the save system will save its contents to a buffer
+      to recreate later
+    - Sub-scene save data is included in quick, manual and auto saves
+    - Multi-Scene Save demo scene with 3 rooms, each using separate sub-scenes
+    - InventoryInteractionHandler controls weapon selection when interacting with
+      objects
+    - New weapon inspect system that sets animator parameters and blocks weapon use
+      while inspecting
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Component Changes
+    bulletPoints:
+    - Updated Kubold demo package with animator controller fix
+    - Updated input system package with weapon inspect trigger
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Script Changes
+    bulletPoints:
+    - IWieldable has new blocker system (add/remove and events) to block weapons
+      when inspecting
+    - Firearm trigger modules all now check blockers before firing
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []

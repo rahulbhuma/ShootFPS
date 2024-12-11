@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9148350593076617032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0004d1c6b38b2974c9780b8be7a26d48, type: 3}
+  m_Name: Connection
+  m_EditorClassIdentifier: 
+  m_Mute: 0
+  m_Source: {fileID: 6271806070405332713}
+  m_Destination: {fileID: 5303460930031217570}
+  m_TransitionOn: 1
+  m_Conditions:
+  - {fileID: -1023909250750368422}
+  m_ConditionGroups: []
+--- !u!114 &-9146837865131551873
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 583769e4f28b87a49a1066e987589b80, type: 3}
+  m_Name: acceleration
+  m_EditorClassIdentifier: 
+  m_DataID: -135552
+  m_Value: 50
+--- !u!114 &-4489021469095372912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a3b456335ca61438524818321f8afd, type: 3}
+  m_Name: sprintHold
+  m_EditorClassIdentifier: 
+  m_StartingValue: 0
+--- !u!114 &-3858085293363576225
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 583769e4f28b87a49a1066e987589b80, type: 3}
+  m_Name: flySpeedStandard
+  m_EditorClassIdentifier: 
+  m_DataID: -135548
+  m_Value: 5
+--- !u!114 &-3024910448267672622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a3b456335ca61438524818321f8afd, type: 3}
+  m_Name: crouchHold
+  m_EditorClassIdentifier: 
+  m_StartingValue: 0
+--- !u!114 &-1023909250750368422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea5a78367a23ca4b919922a6452c53a, type: 3}
+  m_Name: Condition Group
+  m_EditorClassIdentifier: 
+  m_Property: {fileID: -4489021469095372912}
+  m_CompareValue: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 890665fbb65dd70478b6ded0bea2f155, type: 3}
+  m_Name: FlyCamMotionGraph
+  m_EditorClassIdentifier: 
+  m_Parameters:
+  - {fileID: 2323176913291947120}
+  - {fileID: -3024910448267672622}
+  - {fileID: -4489021469095372912}
+  - {fileID: 3918504633367166347}
+  m_Data:
+  - {fileID: -3858085293363576225}
+  - {fileID: 7348097808522117116}
+  - {fileID: -9146837865131551873}
+  m_RootNode: {fileID: 1707224093514022463}
+--- !u!114 &1707224093514022463
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 624e48642449e8148ae5cdaee559c937, type: 3}
+  m_Name: Root
+  m_EditorClassIdentifier: 
+  uiPosition: {x: 0, y: -200}
+  defaultName: NewState
+  m_Parent: {fileID: 0}
+  m_Connections: []
+  m_Behaviours: []
+  m_SerializationKey: 0
+  internalUiPosition: {x: 0, y: -200}
+  m_Container: {fileID: 11400000}
+  m_States:
+  - {fileID: 6271806070405332713}
+  - {fileID: 5303460930031217570}
+  m_SubGraphs: []
+  m_DefaultEntry: {fileID: 6271806070405332713}
+--- !u!114 &2323176913291947120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a3b456335ca61438524818321f8afd, type: 3}
+  m_Name: jumpHold
+  m_EditorClassIdentifier: 
+  m_StartingValue: 0
+--- !u!114 &3918504633367166347
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a3b456335ca61438524818321f8afd, type: 3}
+  m_Name: sprint
+  m_EditorClassIdentifier: 
+  m_StartingValue: 0
+--- !u!114 &4138521236205516270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea5a78367a23ca4b919922a6452c53a, type: 3}
+  m_Name: Condition Group
+  m_EditorClassIdentifier: 
+  m_Property: {fileID: -4489021469095372912}
+  m_CompareValue: 0
+--- !u!114 &4622186773470033480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0004d1c6b38b2974c9780b8be7a26d48, type: 3}
+  m_Name: Connection
+  m_EditorClassIdentifier: 
+  m_Mute: 0
+  m_Source: {fileID: 5303460930031217570}
+  m_Destination: {fileID: 6271806070405332713}
+  m_TransitionOn: 0
+  m_Conditions:
+  - {fileID: 4138521236205516270}
+  m_ConditionGroups: []
+--- !u!114 &5303460930031217570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c9cab2c9efafb4188894e20016dcc4, type: 3}
+  m_Name: Fly Sprint
+  m_EditorClassIdentifier: 
+  uiPosition: {x: 0, y: 59.99994}
+  defaultName: NewState
+  m_Parent: {fileID: 1707224093514022463}
+  m_Connections:
+  - {fileID: 4622186773470033480}
+  m_Behaviours: []
+  m_SerializationKey: -220667439
+  m_CrouchHold: {fileID: -3024910448267672622}
+  m_JumpHold: {fileID: 2323176913291947120}
+  m_TopSpeed:
+    m_Data: {fileID: 7348097808522117116}
+    m_Value: 5
+  m_StrafeMultiplier:
+    m_Data: {fileID: 0}
+    m_Value: 0.75
+  m_ReverseMultiplier:
+    m_Data: {fileID: 0}
+    m_Value: 0.5
+  m_UpDownMultiplier:
+    m_Data: {fileID: 0}
+    m_Value: 0.4
+  m_Acceleration:
+    m_Data: {fileID: -9146837865131551873}
+    m_Value: 50
+  m_PitchMode: 0
+  m_Damping: 0.25
+--- !u!114 &6271806070405332713
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49c9cab2c9efafb4188894e20016dcc4, type: 3}
+  m_Name: Fly Standard
+  m_EditorClassIdentifier: 
+  uiPosition: {x: -1, y: -56.99991}
+  defaultName: NewState
+  m_Parent: {fileID: 1707224093514022463}
+  m_Connections:
+  - {fileID: -9148350593076617032}
+  m_Behaviours: []
+  m_SerializationKey: 507711556
+  m_CrouchHold: {fileID: -3024910448267672622}
+  m_JumpHold: {fileID: 2323176913291947120}
+  m_TopSpeed:
+    m_Data: {fileID: -3858085293363576225}
+    m_Value: 5
+  m_StrafeMultiplier:
+    m_Data: {fileID: 0}
+    m_Value: 0.75
+  m_ReverseMultiplier:
+    m_Data: {fileID: 0}
+    m_Value: 0.5
+  m_UpDownMultiplier:
+    m_Data: {fileID: 0}
+    m_Value: 0.5
+  m_Acceleration:
+    m_Data: {fileID: -9146837865131551873}
+    m_Value: 50
+  m_PitchMode: 0
+  m_Damping: 0.25
+--- !u!114 &7348097808522117116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 583769e4f28b87a49a1066e987589b80, type: 3}
+  m_Name: flySpeedSprint
+  m_EditorClassIdentifier: 
+  m_DataID: -135550
+  m_Value: 12

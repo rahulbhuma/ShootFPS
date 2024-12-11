@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf8f8fb097d88794f8e3b6e98bfb0793, type: 3}
+  m_Name: Attachments_DatabaseTable
+  m_EditorClassIdentifier: 
+  m_TableName: Firearm Attachments
+  m_Entries:
+  - m_DisplayName: AssaultRifle_Magazine_HighCapacity
+    m_Id: 437444157
+  - m_DisplayName: AssaultRifle_Magazine_Polymer
+    m_Id: 2016118465
+  - m_DisplayName: AssaultRifle_Muzzle_Standard
+    m_Id: 104691258
+  - m_DisplayName: AssaultRifle_Muzzle_Suppressor
+    m_Id: 860407667
+  - m_DisplayName: Optics_Holo_Eotech
+    m_Id: 1806631902
+  - m_DisplayName: Optics_RedDot_MRO
+    m_Id: -1672242149
+  - m_DisplayName: Optics_RedDot_MRORaised
+    m_Id: 170586209
+  - m_DisplayName: Optics_RedDot_RMR
+    m_Id: -594200601
+  - m_DisplayName: Optics_Scope_Acog
+    m_Id: 1337425496
+  - m_DisplayName: Optics_Scope_Revolver
+    m_Id: -813395727
+  - m_DisplayName: Optics_Scope_Sniper
+    m_Id: 317769880
+  - m_DisplayName: Optics_Scope_SniperRedDot
+    m_Id: -416284882
+  - m_DisplayName: Pistol_Magazine_Extended
+    m_Id: -1060278383
+  - m_DisplayName: Pistol_Magazine_Standard
+    m_Id: 570789153
+  - m_DisplayName: Pistol_Muzzle_Standard
+    m_Id: -2116351664
+  - m_DisplayName: Pistol_Muzzle_Suppressor
+    m_Id: 894127012
+  - m_DisplayName: Pistol_Optics_BlankingPlate
+    m_Id: 1678987129
+  - m_DisplayName: Pistol_Optics_RMR
+    m_Id: -107767844
+  - m_DisplayName: Pistol_Tactical_Flashlight
+    m_Id: -1603247693
+  - m_DisplayName: Pistol_Tactical_Laser
+    m_Id: -1947585589
+  - m_DisplayName: Pistol_TriggerGroup_Semi
+    m_Id: -545948124
+  - m_DisplayName: Pistol_TriggerGroup_SemiAuto
+    m_Id: -181529325
+  - m_DisplayName: Pistol_TriggerGroup_SemiBurst
+    m_Id: 1368890478
+  - m_DisplayName: Revolver_Barrel_Long
+    m_Id: -1731251926
+  - m_DisplayName: Revolver_Barrel_Standard
+    m_Id: 1824516169
+  - m_DisplayName: Revolver_Barrel_Stub
+    m_Id: 27684188
+  - m_DisplayName: Shotgun_Barrel_Short
+    m_Id: 69564150
+  - m_DisplayName: Shotgun_Barrel_Standard
+    m_Id: 1694646585
+  - m_DisplayName: Shotgun_Muzzle_Standard
+    m_Id: 1995178096
+  - m_DisplayName: Shotgun_Muzzle_Suppressor
+    m_Id: -997040260
+  - m_DisplayName: Tactical_Flashlight
+    m_Id: 1764009487
+  - m_DisplayName: Tactical_Laser
+    m_Id: -870141154

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4f4abcda999cd4b8254e506b70e10f, type: 3}
+  m_Name: Update_v1_1_26
+  m_EditorClassIdentifier: 
+  version: 1126
+  sections:
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: 
+    bulletPoints: []
+    text: 1.1.26 is a small update with various fixes, tweaks and optimisations
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: New Features
+    bulletPoints:
+    - Expanded firearm pickups to add custom payload settings (starting ammo count
+      and attachments)
+    - Added "Import Post Processing" button to render pipelines setup
+    - Added properties for additional (optional) items for pickups
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Settings Changes
+    bulletPoints:
+    - Updated NeoFPS input settings to add in URP debug input axes
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Script Changes
+    bulletPoints:
+    - IWieldable exChanged headTransformHandler and bodyTransformHandler on ICharacter
+      to use IAdditiveTransformHandler instead of concrete type
+    - Modified multiple scripts to swap Mathf.Epsilon checks for small values instead
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []

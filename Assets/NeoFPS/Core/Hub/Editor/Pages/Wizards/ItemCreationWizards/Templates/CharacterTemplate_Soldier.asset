@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5182245670859710135
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ed23e3335c6bb4ea3e0693feedf41e, type: 3}
+  m_Name: controller(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  wizard: {fileID: 11400000}
+  motionGraph: {fileID: 11400000, guid: 99c458800fb33504bb8dc38a3b3a4499, type: 2}
+  useCrouchJump: 1
+  slopeLimit: 45
+  slopeFriction: 1
+  ledgeFriction: 0
+  wallAngle: 5
+  stepHeight: 0.3
+  groundSnapHeight: 0.3
+  pushRigidbodies: 1
+  lowRigidbodyPushMass: 10
+  maxRigidbodyPushMass: 200
+  rigidbodyPush: 20
+  pushedByCharacters: 1
+  pushCharacters: 1
+  characterPush: 2.5
+  gravity: 9.8
+--- !u!114 &-1473171368384447005
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff9b46d15fac434eacfde36596ba6df, type: 3}
+  m_Name: root(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  wizard: {fileID: 11400000}
+  prefabName: Soldier
+  autoPrefix: 1
+  overwriteExisting: 1
+  characterHeight: 2
+  eyeLine: 1.75
+  characterWidth: 1
+  characterMass: 80
+  characterAudioData: {fileID: 11400000, guid: 7529a3201e555034883d77abae1288c5, type: 2}
+  softLandingAudio: {fileID: 11400000, guid: b1cff59a55e7b3c44890442cd5bae358, type: 2}
+  hardLandingAudio: {fileID: 11400000, guid: f1551af870bb1b94aa615f0b53cc8a19, type: 2}
+  addAiSeekerTargets: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa96809bbaaf0b46861ae3b6e2c5719, type: 3}
+  m_Name: CharacterTemplate_Soldier
+  m_EditorClassIdentifier: 
+  m_StepValues:
+  - {fileID: -1473171368384447005}
+  - {fileID: -5182245670859710135}
+  - {fileID: 202350502319987853}
+  - {fileID: 5502485741801816852}
+  - {fileID: 9177682782414740459}
+  - {fileID: 6864931855209343330}
+  m_StepKeys:
+  - root
+  - controller
+  - health
+  - inventory
+  - stamina
+  - input
+--- !u!114 &202350502319987853
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9f0fd5f996ba342a98a2422fd6b0de, type: 3}
+  m_Name: health(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  wizard: {fileID: 11400000}
+  useNeoHealthSystems: 1
+  health: 100
+  maxHealth: 100
+  healthRecharges: 1
+  rechargeRate: 5
+  rechargeDelay: 5
+  interruptDamage: 1
+  applyFallDamage: 1
+  headDamageHandler: 1
+  headRadius: 0.2
+  headDamageMultiplier: 2
+  headShotsAreCritical: 1
+  headInventoryKey: 157789892
+  headArmourMitigation: 0.75
+  headArmourMultiplier: 0.5
+  bodyDamageHandler: 1
+  bodyRadius: 0.35
+  bodyDamageMultiplier: 1
+  bodyInventoryKey: 353087605
+  bodyArmourMitigation: 0.75
+  bodyArmourMultiplier: 0.5
+  legsDamageHandler: 1
+  legsRadius: 0.25
+  legsDamageMultiplier: 0.75
+  legsInventoryKey: 353087605
+  legsArmourMitigation: 0.75
+  legsArmourMultiplier: 0.5
+  shield: 100
+  stepCapacity: 100
+  stepCount: 1
+  shieldMitigation: 1
+  shieldChargeRate: 5
+  shieldChargeDelay: 5
+  canBreakStep1: 1
+--- !u!114 &5502485741801816852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11455c9756a88664984ed35c64e7e0d2, type: 3}
+  m_Name: inventory(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  wizard: {fileID: 11400000}
+  inventoryType: 1
+  slotCount: 10
+  startingSlotChoice: 0
+  startingOrder: 00000000010000000200000003000000
+  backupItem: {fileID: 114220906628037716, guid: fea32a3c49938a24c86df8b49a457398,
+    type: 3}
+  duplicateBehaviour: 0
+  dropVelocity: {x: 0, y: 2, z: 3}
+  swappableSlotCount: 4
+  swapAction: 0
+  groupSizes: 020000000100000001000000
+  startingItemsStandard: []
+  startingItemsSwappable:
+  - {fileID: 114019755459329486, guid: d6d47226cf229a34c92081dff2fb32d8, type: 3}
+  - {fileID: 114491831698022604, guid: 6c688c81d559f0c4d9a19f7a8b9b4d36, type: 3}
+  - {fileID: 8177139102759709749, guid: 66cac9465f371f547b6036afd25fe7c2, type: 3}
+  - {fileID: 1575289363954670002, guid: d64bb3a12b682f6438476834d0149bb9, type: 3}
+--- !u!114 &6864931855209343330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ecc85e6ff08f6438742aa48b99ebb2, type: 3}
+  m_Name: input(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  wizard: {fileID: 11400000}
+  neoMovementInput: 1
+  enableDodging: 0
+  toggleLean: 1
+  jumpKey: jump
+  jumpChargeKey: jumpCharge
+  jumpHoldKey: jumpHold
+  crouchKey: crouch
+  crouchHoldKey: crouchHold
+  sprintKey: sprint
+  dodgeLeftKey: dodgeLeft
+  dodgeRightKey: dodgeRight
+  neoInventoryInput: 1
+--- !u!114 &9177682782414740459
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f338702daf16149b899177c122c1ac, type: 3}
+  m_Name: stamina(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  wizard: {fileID: 11400000}
+  staminaAndBreathing: 1
+  breathInterval: 4
+  breathStrength: 0.25
+  stamina: 100
+  maxStamina: 100
+  staminaRefreshRate: 10
+  modifyMovementSpeed: 1
+  walkSpeedData: moveSpeedWalking
+  aimWalkSpeedData: moveSpeedWalkAiming
+  sprintSpeedData: moveSpeedSprinting
+  aimSprintSpeedData: moveSpeedSprintAiming
+  crouchSpeedData: moveSpeedCrouching
+  aimCrouchSpeedData: 
+  minWalkMultiplier: 0.5
+  minSprintMultiplier: 0.5
+  minCrouchMultiplier: 0.5
+  breatheSlowInterval: 5
+  breatheFastInterval: 1
+  useExhaustion: 0
+  exhaustionThreshold: 1
+  recoverThreshold: 50
+  exhaustedMotionParameter: 
+  sprintMotionParameter: 

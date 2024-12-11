@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4f4abcda999cd4b8254e506b70e10f, type: 3}
+  m_Name: Update_v1_1_24
+  m_EditorClassIdentifier: 
+  version: 1124
+  sections:
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: 
+    bulletPoints: []
+    text: 1.1.24 adds quick-use items (melee, thrown, firearm and tool) and instant
+      use consumables
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: New Features
+    bulletPoints:
+    - New instant use inventory item consumables such as heals (modular actions)
+    - Quick melee, throw, shoot and tool wieldables
+    - New InputFirearmWithMelee (and InputSystemFirearmWithMelee) component
+    - New CriticalHitAudioPlayer to add some extra feedback (eg CoD)
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Component Changes
+    bulletPoints:
+    - New v7 input system extension package to match new input changes
+    - InputInventory (and InputSystemInventory) now allow you to specify quick slot
+      inputs to allow better quick use items
+    - HudInventoryStandardPC now lets you specify which quick slots are displayed
+    - CheckpointTrigger components now require a NeoSerializedGameObject component
+      on the same object as they save data that prevents triggering immediately on
+      load
+    - SimpleReloader and ChamberedReloader now have separate settings for reload
+      time vs blocking time. Existing uses should pick up the existing reload time
+      setting for blocking too
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Script Changes
+    bulletPoints:
+    - Added "isLocked" property to IQuickSlots interface
+    - Added bool result to "SwitchSelection()" method in IQuickSlots interface to
+      report success/fail
+    - Added "isUsable" property and "UseItem()" method to IQuickSlotItem interface
+      for quick-use/consume
+    - Added new ISwappable interface to track category across multiple swappable
+      types (eg non-wieldable)
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4f4abcda999cd4b8254e506b70e10f, type: 3}
+  m_Name: Update_v1_1_19
+  m_EditorClassIdentifier: 
+  version: 1119
+  sections:
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: 
+    bulletPoints: []
+    text: 1.1.19 adds a number of small features, bug fixes and tweaks, as well as
+      a major optimisation pass
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: New Features
+    bulletPoints:
+    - New FpsInventoryMultiDrop can be used to drop multiple items at once
+    - HUD based enemy health bar and world space hit damage counters
+    - Pre-spawn UI popup system and game modes (select spawn points, loadout and
+      characters)
+    - Added stub animations and override controller for first person body
+    - Added one-shot local camera shakes + motion graph behaviour to trigger them
+    - ContinuousTrigger adds support for weapons like beams or flamers
+    - New MapCaptureCamera helper to capture top down views of a scene
+    - Pooling system now allocates pools over time for new items requested after
+      level load
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Component Changes
+    bulletPoints:
+    - 'FirstPersonCameraBase now has a required unityCamera property. If using Cinemachine,
+      you will need to import the latest version of the extension package '
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Script Changes
+    bulletPoints:
+    - IDamageHandler interface now specifies a healthManager property (get only)
+    - ICharacter onTargetHit has been deprecated and replaced with DamageEvents.onDamageHandlerHit
+    - Added MonoBehaviour properties and methods to IHealthManager
+    - Added OnCharacterSpawned virtual method to FpsGameMode
+    - Moved abstract ProcessOldPlayerCharacter out of FpsGameMode to FpsSoloGameBase
+    - FpsSoloGameMinimal has been split into a shared FpsSoloGameBase class
+    - IPrefabPopup interface has new cancellable property (get only)
+    - IQuickSlots interface has new DropAllWieldables() method
+    - onUsed() event on IInteractiveObject and the InteractiveObject component now
+      has an ICharacter parameter
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []

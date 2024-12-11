@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d712933abc7ad49499b6349f2e751a52, type: 3}
+  m_Name: UnderwaterEffectsPreset
+  m_EditorClassIdentifier: NeoFPS:NeoFPS:AudioEffectsPresets
+  m_EffectName: Underwater
+  m_HighpassCutOff: 10
+  m_HighpassResonance: 1
+  m_LowpassCutOff: 850
+  m_LowpassResonance: 1.25
+  m_Distortion: 0
+  m_ReverbEnabled: 1
+  m_ReverbDryLevel: 0
+  m_ReverbRoom: -1000
+  m_ReverbRoomHF: -4000
+  m_ReverbRoomLF: 0
+  m_ReverbDecayTime: 1.49
+  m_ReverbDecayHFRatio: 0.1
+  m_ReverbReflectionsLevel: -449
+  m_ReverbReflectionsDelay: 0
+  m_ReverbLevel: 1700
+  m_ReverbDelay: 0.011
+  m_ReverbHFReference: 5000
+  m_ReverbLFReference: 250
+  m_ReverbDiffusion: 100
+  m_ReverbDensity: 100

@@ -1,0 +1,22 @@
+OVERVIEW:
+- Adds a cinemachine first person camera, along with a demo character, spawner and scene
+
+INSTALLATION:
+- Install the latest cinemachine package from the package manager before extracting the extension package file
+- NOTE: If you get errors after import saying "The type or namespace name 'Cinemachine' could not be found" then select the NeoFPS.Cinemachine assembly definition from the root of the cinemachine extension folder, and in the "Assembly Definition References" section, hit the + button and select the cinemachine assembly from the popup.
+- To use (outside the demos):
+  - Find the camera object in your character's hierarchy
+  - Remove the camera component, along with the audio listener, post processing fix and any camera effects such as flare layers
+  - Add a CinemachineVirtualCamera component and set the priority high enough to be the primary camera
+  - Find the object with the StandardFirstPersonCamera component (usually the parent of the camera object)
+  - Replace the StandardFirstPersonCamera component with a CinemachineFirstPersonCamera component, duplicating the settings and pointing it at the new virtual camera
+  - Add the CinemachineCameraController to your scene, or use your own camera setup with a Cinemachine brain
+  - Works best with the "Cut" default transition type to prevent issues with camera blending on character spawn
+  
+CHANGES:
+- V1
+  - Initial version
+- V2
+  - Modified FirstPersonCameraBase to include reference to the unity camera (for world to screen point conversion, etc)
+- V3
+  - Modified demo character prefab to remove audio effects system since it pulls in an audio listener which clashes with the cinemachine camera

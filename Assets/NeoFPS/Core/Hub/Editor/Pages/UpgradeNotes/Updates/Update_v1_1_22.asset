@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a4f4abcda999cd4b8254e506b70e10f, type: 3}
+  m_Name: Update_v1_1_22
+  m_EditorClassIdentifier: 
+  version: 1122
+  sections:
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: 
+    bulletPoints: []
+    text: 1.1.22 adds demos for the floating origin and camera shake features, along
+      with numerous fixes to the floating origin system
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: New Features
+    bulletPoints:
+    - New demo scenes for camera shake and floating origin
+    - ContactDamageSend and InstantDamageZone components for damaging player via
+      collider and trigger collisions
+    - Added CameraShakeOneShot behaviour for placing on scene objects and triggering
+      via API or events
+    - New OverlaySceneCamera for rendering scene in an area over the first person
+      view
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []
+  - image: {fileID: 0}
+    h2Heading: 
+    h3Heading: Component Changes
+    bulletPoints:
+    - Modified first person body full body prefab to use new OverlaySceneCamera
+    - Renamed "Level Select" to "Feature Demos" in main menu and moved to top of
+      single player list
+    text: 
+    links: []
+    highlightObjects: []
+    actions: []

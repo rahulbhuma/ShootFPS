@@ -1,0 +1,69 @@
+OVERVIEW:
+- Adds alternative versions of each of the NeoFPS input handlers and the input manager which use the input system instead of old input manager
+
+INSTALLATION:
+- Requires Unity 2019.4 LTS or above
+- Before extracting the package, make sure that the "Active Input Handling" property in the Player Settings/Other Settings section is set to "Both"
+- Import the latest Input System package in the package manager (minimum version 1.1.1)
+- NOTE: If you get errors after import saying "The type or namespace name 'InputSystem' could not be found" then select the NeoFPS.InputSystem assembly definition from the root of the input system extension folder, and in the "Assembly Definition References" section, hit the + button and select the input system assembly from the popup.
+- Once the package is extracted find the old input manager at NeoFPS/Resources/FpsManager_Input, and move it out of the Resources folder
+- To use:
+  - Replace all input handler components (InputFirearm, InputInventory, InputCharacterMotion, etc) on your weapons, characters and other prefabs with the equivalent input system versions (InputSystemFirearm, InputSystemInventory, InputSystemCharacterMotion, etc).
+    - There is now a tool to replace prefab input handlers automatically. You can find it under the menu "Tools/NeoFPS/Input System/"
+  - Open your menu prefabs (eg InGameMenu and MainMenu) and under the "Panels" object delete the "OptionsPanel_Bindings" object
+  - Replace that object with the "OptionsPanel_InputSystemBindings" from the NeoFPS/Extensions/InputSystem/SampleUI folder
+  - In the menu hierarchy, expand "MenuObject/NavControls/NavControls_Options" and select the "Button_Bindings" object
+  - In the "Multi Input Button" component, in the "On Click()` event, drag the new "OptionsPanel_InputSystemBindings" object onto the parameter that currently says "None (Menu Panel)" 
+  - Replace the HudAndMenuEventSystem prefab instance in your scenes with the HudAndMenuEventSystem_InputSystem from the NeoFPS/Extensions/InputSystem/Prefabs folder
+- NOTE: You will need to close and re-open the NeoFPS hub if you had it open before importing the package. Without doing this, the "Managers" section will still show the old input manager.
+- TIPS: The following objects will have an input handler (each one has a replacement):
+  - The root object of any weapon or tool (InputFirearm, InputMeleeWeapon, InputThrownWeapon, InputWieldableTool)
+  - The root of the character (InputCharacterMotion, InputInventory, InputCarrySystem, InputCharacterSlowMo, etc)
+  - The player prefab (InputGame)
+  - Ability weapon prefabs (InputAbilityWeapon)
+  - Custom UI menus, not including the demo UIs (InputMenu)
+  - Lockpick UI prefabs (InputLockpick)
+
+  TOUCH SCREEN INPUT
+  - To use the input system with touch screens, replace the HudAndMenuCanvas prefab instance in your scenes with HudAndMenuCanvas_InputSystemTouch prefab from the NeoFPS/Extensions/InputSystem/Prefabs folder
+  - The keyboard rebinding UI has been removed from this menu so you will not need to reproduce the steps for replacing it in the installation section above
+  
+CHANGES:
+- V1
+  - Initial version
+- V2
+  - Added missing wieldable tools input handler
+  - Updated menu input handler with new cursor lock features
+  - Added events to menu toggle
+- V3
+  - Added InputSystemVehicle placeholder handler
+  - Fixed rebinding issues whilst ADS in InputSystemFirearm
+  - Fixed incorrect cursor lock timing in InputSystemMenu
+  - Set hold parameters to false on InputSystemCharacterMotion losing focus
+- V4
+  - Fixed incorrect folder name
+- V5
+  - Added trigger press on enable for firearms
+  - Added inspect weapon functionality to firearms, melee, thrown and tools
+- V6
+  - Adds touch screen controls (scripts and prefabs)
+  - Blocks input for current context if switched to this frame (prevents shooting if the context change was triggered by a mouse click for example)
+  - Added UI input actions asset for use in UI event handler
+  - Added input system UI event handler prefab for easier UI setup
+- V7
+  - Added position market to virtual analog
+  - Allowed specifying inputs for quick slot selection for new instant use and quick use item slots
+  - Added InputFirearmWithMelee input handler for adding a melee weapon to a firearm
+- V8
+  - Added InputSystemCarryObject input handler
+  - Updated inspect input for firearm input handler
+  - Null check on interaction system for character input handler
+- V9
+  - Added tool to convert input handlers on prefabs automatically (Tools/NeoFPS/Input System/)
+  - Fix for possible null binding groups on an action causing error in rebinding menu
+- V10
+  - Fixed incorrect body lean class reference in InputSystemCharacterMotion (was preventing leaning input working on full body character)
+- V11
+  - Added dual wield and primary firearm with secondary input handlers
+  - Added ability melee and wieldable tool input handlers
+  - Added docs links to all input handlers
